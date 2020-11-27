@@ -1,0 +1,25 @@
+{
+  "name": "commit-emailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "Jakov Buratovic",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node-cron": "^2.0.3",
+    "@types/node-fetch": "^2.5.7",
+    "@types/nodemailer": "^6.4.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.16"
+  }
+}
