@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  commit-emailer:
+    image: jakic007/commit-emailer
+    env_file: .env
+    
